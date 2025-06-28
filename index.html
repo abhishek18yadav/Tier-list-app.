@@ -3,35 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style1.css">
+    <title>tier-pplication</title>
+    <link rel="stylesheet" href="task.css">
 </head>
 <body>
-    <h1>
-        Your Own Tier List App...
-    </h1>
     <form>
-        <label for="tier">Tier:</label>
-        <input type="text" id="tier" name="tier" placeholder="enter tier name">
-        <button type="submit" id="submit" class="submitBtn">Click me</button>
-
+        <label for="tier">TIER:</label>
+        <input type="text" id="tier" placeholder="give tier name">
+        <button type="submit" id="submit" class="submitBtn" >create</button>
     </form>
     <form id="image-form">
-        <label for="image-item">Item:</label>
-        <input type="text" id="image-item" name="item" placeholder="Give the item image url ..." >
-        <button type="submit" id="submitImage" class="submitBtn">Click me</button>
-    </form> 
+        <label for="image-item">enter link</label>
+        <input type="text" id="image-item" placeholder="enter url of image">
+        <button type="submit" id="submitImage" class="submitBtn" >search</button>
+    </form>
+
 
     <section id="tier-list-section">
-        
-        
+        <!-- it is area of tier containers -->
     </section>
 
 
     <section id="non-tier-section">
-       
+        <div class="item-container" draggable="true">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTXapRdmpufwS4atWo90DPWPxxKnuPadUVFvP7Uegv8R9Dz4R_8ahloEqtVER4JypRckeDcSrhKJFBK4IMvtXHHDEvTyaGrBRWxbR-W0g" alt="" srcset="">
+        </div>
         
+        <!-- area section for image -->
     </section>
-    <script src="script1.js"></script>
+
+    <script src="task.js"></script>
 </body>
 </html>
